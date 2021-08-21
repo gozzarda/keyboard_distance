@@ -10,3 +10,5 @@ Computes minimum distance required to type words using the two-finger "hunt and 
 Makes no assumptions about what side of the keyboard each finger belongs to, so may find some solutions that are impossible if you have arms.
 
 `./two_finger.py [path/to/dictionary]` will read words from the given dictionary file (default: `dictionary.txt`) and print out a TSV of (sanitized) words and the minimum distance required to type that word using two fingers.
+
+`word_dists.tsv` contains the results of running this program on the sample `dictionary.txt`.
