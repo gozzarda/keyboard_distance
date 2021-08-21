@@ -3,6 +3,8 @@ Code for computing distance fingers move while typing.
 
 Inspired by [Matt Parker's video](https://youtu.be/Mf2H9WZSIyw).
 
+Sample `dictionary.txt` uses the ENABLE dictionary sourced from the [Word Game Dictionary](https://www.wordgamedictionary.com/enable/).
+
 ## `two_finger.py`
 Computes minimum distance required to type words using the two-finger "hunt and peck" method.
 Makes no assumptions about what side of the keyboard each finger belongs to, so may find some solutions that are impossible if you have arms.
